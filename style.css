@@ -402,7 +402,7 @@ a {
 }
 
 .button:hover {
-	background-image: url("join.jpeg");
+	background-image: url("https://cdn.jsdelivr.net/gh/YumeHinata/publicity-pages/join.jpeg");
 	background-size: 100% auto;
 	background-position: 80%;
 }
