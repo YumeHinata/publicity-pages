@@ -1,3 +1,438 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	
+}
+
+.zhengwen {
+	position: inherit;
+}
+
+.header {
+	position: relative;
+	width: 95%;
+	height: 750px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	top:50px;
+}
+
+.logo {
+	position: relative;
+}
+
+.logo img {
+	position: absolute;
+	width: 750px;
+	height: auto;
+	left: 50%;
+	margin-left: -25%;
+}
+
+.header .biaoti {
+	position: relative;
+	width: 750px;
+	height: auto;
+	margin: auto;
+	font-size: 50px;
+	color: #0F0F0F;
+	text-align: center;
+	top: 330px;
+}
+
+.header .jianshu {
+	position: relative;
+	width: 550px;
+	height: auto;
+	margin: auto;
+	font-size: 20px;
+	color: #777777;
+	text-align: center;
+	top: 330px;
+}
+
+.gugugu {
+	position: relative;
+	width: 95%;
+	height: 1350px;
+	margin: 0 auto;
+	background-color: #c4fff9;
+	top:80px;
+}
+
+.gugugu .chatu img {
+	position: absolute;
+	width: 850px;
+	height: auto;
+	left: 50%;
+	margin-left: -25%;
+	top: 40%;
+}
+
+.gugugu .biaoti {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	font-size: 60px;
+	top: 20%;
+	color: #00F5C3;
+}
+
+.gugugu .jianshu {
+	position: absolute;
+    width: 350px;
+    height: auto;
+    font-size: 30px;
+    top: 67%;
+    left: 75%;
+	color: #0EFF74;
+}
+
+.gugugu .beizhu {
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	top: 95%;
+	left: 2%;
+	color: #0EFF74;
+}
+
+.gonglue {
+	position: relative;
+	width: 95%;
+	height: 1050px;
+	margin: 0 auto;
+	background-color: #ACEBFF;
+	top:110px;
+}
+
+.gonglue .chatu {
+	position: relative;
+	background-color: #6A6A6A;
+	margin: auto;
+	width: auto;
+	height: auto;
+	top: 10%;
+}
+
+.gonglue .chatu .chatu1 img {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	left: 10%;
+	top: 350px;
+}
+
+.gonglue .chatu .chatu2 img {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	right: 10%;
+	top: 100px;
+}
+
+.gonglue .biaoti {
+	position: absolute;
+	top: 300px;
+	font-size: 60px;
+	left: 17%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.gonglue .jianshu {
+	position: absolute;
+	top: 650px;
+	font-size: 25px;
+	width: 310px;
+	right: 13%;
+	color: #FFFFFF;
+}
+
+.gonglue .beizhu{
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	top: 95%;
+	left: 2%;
+	color: #FFFFFF;
+}
+
+.zhizuoren {
+	position: relative;
+	width: 95%;
+	height: 2150px;
+	margin: 0 auto;
+	background-color: #FFE095;
+	top:140px;
+}
+
+.zhizuoren .biaoti1 {
+	position: relative;
+	width: 1350px;
+	height: auto;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	top: 230px;
+}
+
+.zhizuoren .biaoti2 {
+	position: relative;
+	width: 760px;
+	height: auto;
+	margin: auto;
+	font-size: 50px;
+	color: #0F0F0F;
+	text-align: center;
+	top: 1170px;
+}
+
+.zhizuoren .chatu img{
+	position: absolute;
+	left: 35%;
+	width:550px;
+	top: 400px;
+}
+
+.zhizuoren .jianshu{
+	position: relative;
+	margin: auto;
+	width: auto;
+	height: auto;
+	top: 60%;
+}
+
+.zhizuoren .jianshu .jianshu1 {
+	position: relative;
+	width: 760px;
+	height: auto;
+	margin: auto;
+	font-size: 30px;
+	color: #0F0F0F;
+	text-align: center;
+	top: 20px;
+}
+
+.zhizuoren .jianshu .jianshu2 {
+	position: relative;
+	width: 550px;
+	height: auto;
+	margin: auto;
+	font-size: 30px;
+	color: #0F0F0F;
+	text-align: center;
+	top: 40px;
+}
+
+.zhizuoren .jianshu .chatu2 img {
+	position: relative;
+	left: 35%;
+	width: 450px;
+	top: 20px;
+}
+
+.jiaru {
+	position: relative;
+	width: 95%;
+	height: 1050px;
+	margin: 0 auto;
+	background-color: #ff19c340;
+	top:170px;
+}
+
+.jiaru .form {
+	position: relative;
+	width: 1050px;
+	margin: auto;
+	height: auto;
+	background-color: #FF3E41;
+	top: 20%;
+}
+
+.jiaru .form .biaoti1 {
+	position: absolute;
+	left:1%;
+	height: auto;
+	top: 12px;
+	font-size: 40px;
+	color: #FF2F4E;
+}
+
+.jiaru .form .biaoti2 {
+	position: absolute;
+	right: 1%;
+	height: auto;
+	top: 12px;
+	font-size: 40px;
+	color: #FF2F4E;
+}
+
+.jiaru .form .jianshu1 {
+	position: absolute;
+	width: 250px;
+	left: 8%;
+	top: 62px;
+	font-size: 20px;
+	color: #d70051;
+}
+
+.jiaru .form .jianshu2 {
+	position: absolute;
+	width: 250px;
+	right: 8%;
+	top: 62px;
+	font-size: 20px;
+	color: #d70051;
+}
+
+.jiaru .form .chatu1 img {
+	position: absolute;
+	width: 250px;
+	left: 8%;
+	top: 272px;
+}
+
+.jiaru .form .chatu2 img {
+	position: absolute;
+    width: 450px;
+    left: 58%;
+    top: 322px;
+}
+
+.jiewei {
+	position: relative;
+	width: 95%;
+	height: 1550px;
+	margin: 0 auto;
+	background-color: #ffe5c95e;
+	top:200px;
+}
+
+.jiewei .tese {
+	position: relative;
+	width: 1050px;
+	margin: auto;
+	height: 30%;
+	top: 15%;
+}
+
+.jiewei .tese .tese1 {
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 12px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.jiewei .tese .tese2{
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 62px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.jiewei .tese .beizhu{
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	top: 95%;
+	left: 2%;
+}
+
+.jiewei .join1{
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 25%;
+	font-size: 60px;
+	text-align: center;
+}
+
+.jiewei .join2{
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 30%;
+	font-size: 60px;
+	text-align: center;
+}
+
+.jiewei .join3{
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 35%;
+	font-size: 60px;
+	text-align: center;
+}
+
+.jiewei .join4{
+	position: relative;
+	margin: auto;
+	height: auto;
+	top: 40%;
+	font-size: 60px;
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	border-radius: 125px;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align:middle
+}
+
+a {
+	position: table-cell;
+	height: 40px;
+	line-height: 40px;
+}
+
+.button:hover {
+	background-image: url("join.jpeg");
+	background-size: 100% auto;
+	background-position: 80%;
+}
+
+.button:hover a{
+	display: none;
+}
+
+.gugugu .button {
+	top: 87%;
+    left: 80%;
+	border: 5px solid #abffc5;
+}
+
+.gonglue .button {
+	top: 84%;
+    left: 69%;
+    border: 5px solid #00ffff;
+}
+
+.zhizuoren .button {
+	top: 64%;
+    border: 5px solid #fad72c;
+    margin: auto;
+    position: relative;
+}
+
+.jiewei .button {
+	top: 45%;
+    border: 5px solid #ffd281;
+    margin: auto;
+    position: relative;
+}
